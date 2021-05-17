@@ -5,49 +5,14 @@
   </a>
   <p align="center">
     A Telegram bot to stream files to web
-    <br />
-    <a href="https://telegram.dog/AH_File2Link_Bot"><strong>Demo Bot »</strong></a>
-    <br />
-    <a href="https://github.com/AbirHasan2005/Pyro-FileStreamBot/issues">Report a Bug</a>
-    |
-    <a href="https://github.com/AbirHasan2005/Pyro-FileStreamBot/issues">Request Feature</a>
   </p>
 </p>
 
-<hr>
-
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-this-bot">About this Bot</a>
-      <ul>
-        <li><a href="#original-repository">Original Repository</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#how-to-make-your-own">How to make your own</a>
-      <ul>
-        <li><a href="#deploy-on-heroku">Deploy using Heroku</a></li>
-        <li><a href="#host-it-on-vps-or-locally">Run it in a VPS / local</a></li>
-      </ul>
-    </li>
-    <li><a href="#setting-up-things">Setting up things</a></li>
-    <ul>
-      <li><a href="#mandatory-vars">Mandatory Vars</a></li>
-      <li><a href="#optional-vars">Optional Vars</a></li>
-    </ul>
-    <li><a href="#how-to-use-the-bot">How to use the bot</a></li>
-    <li><a href="#special-features">Special Features</a></li>
-    <li><a href="#demo-bot>Demo Bot</a></li>
-    <li><a href="#credits">Credits</a></li>
-  </ol>
-</details>
 
 ## About This Bot
 
 <p align="center">
-    <a href="https://github.com/AbirHasan2005/Pyro-FileStreamBot">
+    <a href="https://github.com/advik-afk/Pyro-FileStreamBot">
         <img src="https://www.flaticon.com/premium-icon/icons/svg/2626/2626281.svg" height="100" width="100" alt="Telegram Logo">
     </a>
 </p>
@@ -58,10 +23,6 @@
 ### Original Repository
 
 The main working part was taken from [Megatron](https://github.com/eyaadh/megadlbot_oss) and thanks to [eyaadh](https://github.com/eyaadh) for his awesome project.
-
-## How to make your own
-
-Either you could locally host or deploy on [Heroku](https://heroku.com)
 
 ### Deploy on Heroku
 
@@ -114,7 +75,7 @@ DATABASE_URL=mongodb_uri
 
 `OWNER_ID` : Your Telegram User ID
 
-`DATABASE_URL` : MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help to get the URI you can ask in [Support Group](https://t.me/linux_repo).
+`DATABASE_URL` : MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database.
 
 ### Optional Vars
 
@@ -141,11 +102,6 @@ DATABASE_URL=mongodb_uri
 `/start` : To check if the bot is alive or not.
 
 To get an instant stream link, just forward any media to the bot and boom, its fast af.
-
-## Demo Bot:
-<a href="https://t.me/AH_File2Link_Bot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
-
-[![Heroku Awake](https://github.com/AbirHasan2005/Pyro-FileStreamBot/actions/workflows/Alive.yml/badge.svg?event=status)](https://github.com/AbirHasan2005/Pyro-FileStreamBot/actions/workflows/Alive.yml)
 
 ## Special Features:
 - Added Mongo Database Support!
